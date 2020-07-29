@@ -5,9 +5,11 @@
 const env = process.env
 const isProd = env.NODE_ENV === 'production'
 
-const Test2 = () => {
-  const someVar = null;
-  return someVar.myKey ? "Hello!" : "Goodbye!";
-}
+const Test2 = () => (
+  <>
+    <h1>Client Test 2</h1>
+    <p>isProd: {isProd}</p>
+  </>
+)
 
 export default Test2
