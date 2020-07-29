@@ -7,7 +7,7 @@ const isProd = env.NODE_ENV === 'production'
 
 const Test2 = () => {
   const someVar = null;
-  return someVar.myKey ? "Hello" : "Goodbye";
+  return someVar.myKey ? "Hello!" : "Goodbye!";
 }
 
 export default Test2
